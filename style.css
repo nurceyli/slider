@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin:0;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+.carousel_container{  
+     
+    width: 49%;
+    margin:auto;
+    border-radius: 30px;
+    /* border: 5px solid rgba(246, 128, 44, 0.596) ; */
+    border: 6px solid #eb4c01 ;
+    /* box-shadow:rgb(192 129 84); */
+    box-shadow: 1px 1px 1px 1px #eb4c01  ;
+    overflow: hidden;
+}
+.carousel_slide{
+    
+    display: flex;
+    width: 100%;
+    height: 500px; 
+    
+}
+#prevBtn{
+    border-radius: 25px;
+    position:absolute;
+    width: 32px;
+    bottom:200px;
+    left:620px;
+    background-image: radial-gradient(circle, rgba(252, 129, 6, 0.493), rgba(63, 63, 0, 0.466), rgba(0, 128, 0, 0.308));
+    /* box-shadow: rgb(248, 154, 3) 0.5px 0.5px 0.5px 0.5px; */
+    box-shadow: 1px 1px 1px 1px  #eb4c01;
+
+  
+}
+#nextBtn{
+    
+    border-radius: 25px;
+    position: absolute;
+    width: 32px;
+    bottom: 200px;
+    right:620px;
+    background-image: radial-gradient(circle, rgba(245, 146, 7, 0.493), rgba(63, 63, 0, 0.466), rgba(0, 128, 0, 0.308));
+    /* box-shadow: rgb(249, 140, 6) 0px 0px 0px 1px; */
+    box-shadow: 1px 1px 1px 1px  #eb4c01;
+    
+}
+.controls{
+    position: absolute;
+    display: flex;
+}
+.dot{
+    position: relative;
+    width: 12px;
+    height: 3.5px;
+    /* background-color:rgb(242, 176, 9); */
+    background-color:  #eb4c01;
+    border-radius: 3px;
+    bottom:24px;
+    margin-left:5px;
+    left:295px;
+}
